@@ -1,0 +1,48 @@
+<html>
+    <head>
+         <meta charset="UTF-8">
+        <title>control direction</title>
+         <style> 
+        body{
+            font-family: arial;
+            font-size: 16px;
+            background:linear-gradient(to right bottom, #8fb7e5, #031f6a);
+            color: #000;
+            display: flex;
+           justify-content: center;
+         }
+        
+        .board{
+          width: 600px;
+          text-align: center;
+        }
+        h1{
+            color: #fff;
+            font-size: 50px;
+        }
+  
+        button{
+            padding: 12px 50px;
+          background: #ffffff;
+           color: rgb(19, 18, 18);
+          font-size: 18px;
+           cursor: pointer;
+          border-radius: 5px;
+        }
+        </style>
+    </head>
+    <body>
+    <div class="board">
+    <h1>Select direction</h1>
+
+    <form action="dir.php" method="post">
+      <button name="desc" value="F">Forward</button></br></br>
+      <button name="desc" value="L">Left</button>
+      <button name="desc" value="S">Stop</button>
+      <button name="desc" value="R">Right</button></br></br>
+      <button name="desc" value="B">Backward</button>
+  </form> 
+
+    </div>
+     </body>
+</html>
